@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        sh 'liquibase --version'
+        sh 'sudo liquibase --version'
       }
     }
   }
