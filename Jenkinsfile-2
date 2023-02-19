@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Update') {
       steps {
-        sh 'liquibase update --url="jdbc:mysql://13.233.113.81:3306/test" --changeLogFile=my_app-wrapper.xml --username=root --password=1234
+        sh 'liquibase update --url="jdbc:mysql://13.233.113.81:3306/test" --changeLogFile=my_app-wrapper.xml --username=root --password=1234'
       }
     }
   }
